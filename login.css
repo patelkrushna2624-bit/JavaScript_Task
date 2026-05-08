@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(223, 223, 233);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+.login-container{
+    padding: 30px;
+    border-radius:10px ;
+    width:400px;
+    background-color: rgb(120, 114, 189);
+    height: 350px;
+}
+
+.login-container h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+input{
+width: 95%;
+padding: 10px;
+margin: 8px 0;
+border: 1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+width:100%;
+padding: 10px;
+color: white;
+background-color: rgb(62, 173, 207);
+border: none;
+border-radius: 5px;
+margin-top: 10px;
+cursor: pointer;
+font-size: 15px;
+
+}
+button:hover{
+    background-color: rgb(28, 139, 172);
+}
+
+.sign-up{
+    text-align: center;
+    margin-top: 10px;
+}
+
+

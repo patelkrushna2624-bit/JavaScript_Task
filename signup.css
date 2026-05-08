@@ -1,0 +1,50 @@
+body{
+    background: rgb(223, 223, 233);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color:  rgb(120, 114, 189);
+}
+
+.signup-container h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    width:100%;
+    padding: 10px;
+    background-color: rgb(62, 173, 207);
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+    background:rgb(28, 139, 172);
+}
+
+.login{
+    text-align: center;
+    margin-top: 10px;
+}
